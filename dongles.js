@@ -17,5 +17,5 @@ for (var i = 0; i < dongle.length; i++) {
   productCard +="<div class='productCard'><img class='productpic' src=" + dongle[i].image + "><p class='lightBox'>" + dongle[i].descrip;
   products.innerHTML += productCard
 
-  console.log(products)
+  console.log()
 }
