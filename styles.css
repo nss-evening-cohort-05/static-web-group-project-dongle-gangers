@@ -1,0 +1,25 @@
+article {
+	border: 3px solid black;
+	max-width: 40%;
+	display: inline-block;
+	flex-wrap: wrap;
+	margin-top: 0;
+}
+
+p {
+	text-align: justify;
+	margin: 5%;
+}
+
+body article header h2 {
+	border: 2px solid black;
+	text-align: center;
+}
+
+img.pic {
+	max-width: 100px;
+	max-height: 50px;
+	display: block;
+	flex-direction: left;
+	margin: 0 0 0 5%;
+}
