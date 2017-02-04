@@ -1,3 +1,49 @@
+body {
+	font-family: 'Francois One', sans-serif;
+}
+
+
+/*************************************/
+/* NAV BAR */
+/*************************************/
+ul.navbar {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Float the list items side by side */
+ul.navbar li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.navbar li a {
+    display: inline-block;
+    border: 1px solid black;
+    min-width: 100px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/*************************************/
+/* HEADERS */
+/*************************************/
+h1 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+/*************************************/
+/* CARD STYLING for Employee Page, Products Page */
+/*************************************/
 article {
 	max-width: 40%;
 	display: inline-block;
@@ -20,7 +66,6 @@ img.pic {
 
 div.darkBox {
 	color: #F8F8FF;
-	font-family: 'Francois One', sans-serif;
 	font-weight: bold;
 	border: 5px solid black;
 	background-color: darkgray;
@@ -39,3 +84,47 @@ div.lightBox {
 	margin: 0 auto;
 	word-wrap: break-word;
 }
+
+.productPic {
+	...
+}
+
+.employeePic {
+	...
+}
+
+
+/*************************************/
+/* COLUMNS for Dongles Talk page */
+/*************************************/
+.twoCols {
+	height: 200px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+section.leftCol {
+	width: 60%;
+	float: left;
+}
+
+section.rightCol {
+	width: 40%;
+	float: right;
+}
+
+section.bottomSpan {
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+	/*padding-top: 10px;*/
+	float: center;
+	vertical-align: bottom;
+}
+
+section.bottomSpan p {
+	margin-top: 1%;
+}
+
+
+
