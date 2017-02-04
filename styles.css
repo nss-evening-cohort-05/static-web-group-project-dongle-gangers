@@ -29,6 +29,11 @@ ul.navbar li a {
     font-size: 17px;
 }
 
+a.activePage {
+	background-color: darkgray;
+	color: white;
+}
+
 
 /*************************************/
 /* HEADERS */
@@ -49,6 +54,7 @@ article {
 	display: inline-block;
 	flex-wrap: wrap;
 	margin-top: 0;
+	justify-content: space-around;
 }
 
 p {
@@ -56,11 +62,11 @@ p {
 	margin: 5%;
 }
 
-img.pic {
-	max-width: 100px;
-	max-height: 50px;
-	display: block;
-	flex-direction: left;
+.productPic, .employeePic {
+	max-width: 200px;
+	max-height: 200px;
+	display: inline-block;
+	justify-content: space-around;
 	margin: 0 0 0 5%;
 }
 
@@ -70,6 +76,7 @@ div.darkBox {
 	border: 5px solid black;
 	background-color: darkgray;
 	border-radius: 5%;
+	margin: 10% auto;
 }
 
 div.lightBox {
@@ -86,11 +93,11 @@ div.lightBox {
 }
 
 .productPic {
-	...
+	max-width: 70px;
 }
 
 .employeePic {
-	...
+	max-width: 100px;
 }
 
 
@@ -125,6 +132,3 @@ section.bottomSpan {
 section.bottomSpan p {
 	margin-top: 1%;
 }
-
-
-
