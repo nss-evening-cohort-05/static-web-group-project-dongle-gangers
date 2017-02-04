@@ -1,5 +1,4 @@
 article {
-	border: 3px solid black;
 	max-width: 40%;
 	display: inline-block;
 	flex-wrap: wrap;
@@ -11,15 +10,32 @@ p {
 	margin: 5%;
 }
 
-body article header h2 {
-	border: 2px solid black;
-	text-align: center;
-}
-
 img.pic {
 	max-width: 100px;
 	max-height: 50px;
 	display: block;
 	flex-direction: left;
 	margin: 0 0 0 5%;
+}
+
+div.darkBox {
+	color: #F8F8FF;
+	font-family: 'Francois One', sans-serif;
+	font-weight: bold;
+	border: 5px solid black;
+	background-color: darkgray;
+	border-radius: 5%;
+}
+
+div.lightBox {
+	background-color: #F8F8FF;
+	color: black;
+	font-weight: bold;
+	font-size: .75em;
+	border: 3px solid black;
+	border-radius: 5%;
+	opacity: .85;
+	width: 70%;
+	margin: 0 auto;
+	word-wrap: break-word;
 }
