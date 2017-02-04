@@ -34,6 +34,7 @@ ul.navbar li a {
 /* HEADERS */
 /*************************************/
 h1 {
+	margin-left: 50px;
 	font-size: 1.75em;
 }
 
@@ -100,11 +101,12 @@ div.lightBox {
 .twoCols {
 	height: 200px;
 	overflow: auto;
-	padding-bottom: 100px;
+	margin: 0 25px;
+	padding-bottom: 10px;
 }
 
 section.leftCol {
-	width: 60%;
+	width: 50%;
 	float: left;
 }
 
@@ -115,16 +117,26 @@ section.rightCol {
 
 section.bottomSpan {
 	display: block;
-	width: 100%;
+	width: 90%;
+	margin: 0 25px;
+	text-align: center;
+	padding: 1px 10px;
 	border: 1px solid black;
-	/*padding-top: 10px;*/
-	float: center;
-	vertical-align: bottom;
+	border-radius: 10%;
 }
 
 section.bottomSpan p {
-	margin-top: 1%;
+	margin: 1% 1% 2%;
+
 }
 
 
+/*************************************/
+/* FOOTER */
+/*************************************/
+footer {
+	margin-top: 50px;
+	text-align: center;
+	font-size: .75em;
+}
 
