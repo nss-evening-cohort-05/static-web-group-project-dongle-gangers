@@ -132,3 +132,12 @@ section.bottomSpan {
 section.bottomSpan p {
 	margin-top: 1%;
 }
+
+/*************************************/
+/* Homepage */
+/*************************************/
+
+.threeImages {
+	display: flex;
+	flex-direction: row;
+}
