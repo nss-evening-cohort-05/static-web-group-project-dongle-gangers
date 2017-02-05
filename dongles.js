@@ -14,7 +14,7 @@ var dongle = [
 
 for (var i = 0; i < dongle.length; i++) {
   var productCard = "";
-  productCard +="<div class='productCard'><img class='productPic' src=" + dongle[i].image + "><p class='lightBox'>" + dongle[i].descrip;
+  productCard +="<div class='productCard'><img class='productPic' src=" + dongle[i].image + "><p class='lightBox'>" + "<div class='descrip'>" + dongle[i].descrip + "</div>";
   products.innerHTML += productCard
 
   console.log()
