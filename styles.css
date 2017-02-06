@@ -2,6 +2,9 @@ body {
 	font-family: 'Francois One', sans-serif;
 	text-align: center;
 	justify-content: space-between;
+	filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 /*************************************/
@@ -37,6 +40,10 @@ ul.navbar li a {
 a.activePage {
 	background-color: darkgray;
 	color: white;
+}
+
+a.visited {
+	color: darkgray;
 }
 
 
