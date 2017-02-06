@@ -76,6 +76,9 @@ p {
 	height: 200px;
 	border-radius: 10%;
 	border: 10px solid black;
+	filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 .employeePic {
@@ -86,6 +89,9 @@ p {
 	border-radius: 10%;
 	flex-wrap: wrap;
 	border: 10px solid black;
+	filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 div.darkBox {
@@ -133,6 +139,9 @@ div.lightBox {
 	width: 70%;
 	border-radius: 10%;
 	border: 10px solid black;
+	filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 /*************************************/
