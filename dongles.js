@@ -1,6 +1,6 @@
 var products = document.getElementById("products");
 var dongle = [
-{image:"images/cookie.png", descrip:'Punxsutawney Phil cookie dongle <br> "limited edition: 6 more weeks of winter" <br> $2.50'},
+{image:"images/cookie.png", descrip:'cookie dongle <br> "limited edition: 6 more weeks of winter" <br> $2.50'},
 {image:"images/coaster.png", descrip:'coaster dongle <br> "rolling with life\'s ups and downs- you look parched" <br> $6.66'},
 {image:"images/bread.png", descrip:'bread dongle <br> "baguette syncs with last season\'s dongleberry jam" <br> $5'},
 {image:"images/hammer.png", descrip:'hammer dongle <br> "it\'s always hammer time with this dongle" <br> $5.43'},
